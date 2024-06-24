@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Components/Header";
+import Feature from "./Components/Feature";
+import About from "./Components/About";
+import aboutimage from "./images/about.png";
+import Presentation from "./Components/Presentation";
+import Contact from "./Components/Contact";
+import Problem from "./Components/Problem";
+import Works from "./Components/Works";
+import Results from "./Components/Results";
+import Involved from "./Components/Involved";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <section id="home">
+        <Header />
+      </section>
+      <section id="about">
+        <About image={aboutimage} title="About Us" />
+      </section>
+      <section id="team">
+        <Presentation />
+      </section>
+      <section id="problem">
+        <Problem />
+      </section>
+      <section id="solution">
+        <Feature />
+      </section>
+      <section id="works">
+        <Works />
+      </section>
+      <section id="results">
+        <Results />
+      </section>
+      <section id="involved">
+        <Involved />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 }
