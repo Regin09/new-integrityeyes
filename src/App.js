@@ -18,24 +18,22 @@ function App() {
       <section id="home">
         <Header />
       </section>
-      <section id="about">
-        <About image={aboutimage} title="About Us" />
-      </section>
-      <section id="team">
-        <Presentation />
-      </section>
       <section id="problem">
         <Problem />
       </section>
       <section id="solution">
         <Feature />
       </section>
-      <section id="works">
-        <Works />
-      </section>
       <section id="results">
         <Results />
       </section>
+      <section id="about">
+        <About image={aboutimage} title="About Us" />
+      </section>
+      <section id="team">
+        <Presentation />
+      </section>
+
       <section id="involved">
         <Involved />
       </section>

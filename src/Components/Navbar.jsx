@@ -26,16 +26,16 @@ function Navbar() {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#about">About Us</a>
-        </li>
-        <li>
-          <a href="#team">Our Team</a>
-        </li>
-        <li>
           <a href="#problem">Problem</a>
         </li>
         <li>
           <a href="#solution">Solution</a>
+        </li>
+        <li>
+          <a href="#about">About Us</a>
+        </li>
+        <li>
+          <a href="#team">Our Team</a>
         </li>
         <li>
           <a href="#involved">Get Involved</a>

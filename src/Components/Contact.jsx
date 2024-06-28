@@ -3,6 +3,7 @@ import integrityLogo from "../images/integritylogo.png"; // Adjust the path as n
 import linkedinLogo from "../images/linkedin.png";
 import apulogo from "../images/new-apu.png";
 import graymatterlogo from "../images/new-graymatter.png";
+import accountabilitylab from "../images/accountabilitylab.png";
 
 function Contact() {
   return (
@@ -35,6 +36,11 @@ function Contact() {
           <div className="partners-logos">
             {/* Add your partners' logos here */}
             <img
+              src={accountabilitylab}
+              alt="Partner 3"
+              style={{ width: "100%", maxWidth: "200px" }}
+            />
+            <img
               src={apulogo}
               alt="Partner 1"
               style={{ width: "100%", maxWidth: "150px" }}
@@ -44,8 +50,6 @@ function Contact() {
               alt="Partner 2"
               style={{ width: "100%", maxWidth: "150px" }}
             />
-
-            {/* Add more partner logos as needed */}
           </div>
         </div>
         <div className="footer-right">

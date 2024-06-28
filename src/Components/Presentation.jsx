@@ -3,7 +3,7 @@ import TeamMemberBox from "./TeamMemberBox";
 import member1 from "../images/Reymon.png";
 import member2 from "../images/mike.jpeg";
 import member3 from "../images/jiayi.png";
-import member4 from "../images/newregi.png";
+import member4 from "../images/new-regin-image.png";
 import linkedinIcon from "../images/linkedin.png"; // Import the LinkedIn icon
 
 function Presentation() {
@@ -20,12 +20,12 @@ function Presentation() {
       ],
     },
     {
-      image: member2,
-      name: "Chukwudi Ikegwu",
-      description: "Brand Marketing",
+      image: member4,
+      name: "Regin Georgius S",
+      description: "Head of SoftDev",
       socialMedia: [
         {
-          url: "https://www.linkedin.com/in/chukwudi-ikegwu-msc-24b696105/",
+          url: "https://www.linkedin.com/in/regin-georgius-sembiring/",
           icon: linkedinIcon,
         },
       ],
@@ -42,12 +42,12 @@ function Presentation() {
       ],
     },
     {
-      image: member4,
-      name: "Regin Georgius S",
-      description: "Head of SoftDev",
+      image: member2,
+      name: "Chukwudi Ikegwu",
+      description: "Brand Marketing",
       socialMedia: [
         {
-          url: "https://www.linkedin.com/in/regin-georgius-sembiring/",
+          url: "https://www.linkedin.com/in/chukwudi-ikegwu-msc-24b696105/",
           icon: linkedinIcon,
         },
       ],

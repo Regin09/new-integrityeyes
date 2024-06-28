@@ -12,20 +12,22 @@ function Header() {
             <span className="integrity-eyes">Integrity Eyes</span>
           </h1>
           <div className="details-container">
-            <p className="details">
-              Integrity Eyes is transforming public procurement in Malaysia by
-              enhancing transparency, accountability, and fair competition. Our
-              project, in collaboration with Graymatter Forensic Advisory Sdn.
-              Bhd. and Asia Pacific University, emerged victorious at the
-              HackCorruption South East Asia 2024 event. We aim to combat
-              corruption in the construction and infrastructure sectors.
-            </p>
-            <p className="details-2">
-              Leveraging cutting-edge technology and cross-sector partnerships,
-              we monitor and highlight concerns within ongoing projects. Join us
-              in our mission to make public procurement in Malaysia a model of
-              integrity and efficiency.
-            </p>
+            <div className="details-box">
+              <p className="details">
+                Integrity Eyes is transforming public procurement in Malaysia by
+                enhancing transparency, accountability, and fair competition.
+                Our project, in collaboration with Graymatter Forensic Advisory
+                Sdn. Bhd. and Asia Pacific University, emerged victorious at the
+                HackCorruption South East Asia 2024 event. We aim to combat
+                corruption in the construction and infrastructure sectors.
+              </p>
+              <p className="details-2">
+                Leveraging cutting-edge technology and cross-sector
+                partnerships, we monitor and highlight concerns within ongoing
+                projects. Join us in our mission to make public procurement in
+                Malaysia a model of integrity and efficiency.
+              </p>
+            </div>
           </div>
         </div>
         <div className="header-image">
