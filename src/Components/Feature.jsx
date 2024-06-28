@@ -8,7 +8,7 @@ import riskmanagementimg from "../images/risk-management.jpg";
 function Feature() {
   return (
     <div id="features">
-      <h1>Our Dashboards</h1>
+      <h1>Our Solution</h1>
       <div className="feature-intro">
         <p>
           Integrity Eyes is a comprehensive system designed to enhance
